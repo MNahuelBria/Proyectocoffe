@@ -61,8 +61,14 @@ git commit -m "Agrego el README.md"
 
 ## Para ver las fotos (commits) que están dentro del repositorio local (Local REPO)
 
-
 ```sh
 git log
 git log --oneline
+```
+
+## Si quiero ver los cambios entre el WD y LR
+NOTA: Si se me bloquea la consola. Tengo que presionar la tecla q (quit)
+
+```sh
+git diff
 ```
