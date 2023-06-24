@@ -42,3 +42,27 @@ git init
 ```sh
 git status
 ```
+
+## Para confirmar los cambios de un archivo (WD => SA)
+
+```sh
+git add <nombre-archivo>
+git add README.md
+git add README.md css/estilos.css
+git add . # Con el punto (.) o el asterisco (*) Agrego todos los archivos que están (UnTRACKED, MODIFIED) al área intermedia o stanging area (SA)
+```
+
+## Para hacer commit [acar foto] (SA => LR)
+
+```sh
+git commit -m "<Mensaje explicando que guarde en esa foto>"
+git commit -m "Agrego el README.md"
+``` 
+
+## Para ver las fotos (commits) que están dentro del repositorio local (Local REPO)
+
+
+```sh
+git log
+git log --oneline
+```
