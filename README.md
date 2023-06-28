@@ -72,3 +72,9 @@ NOTA: Si se me bloquea la consola. Tengo que presionar la tecla q (quit)
 ```sh
 git diff
 ```
+
+# subir repositorio local al repositorio remoto
+
+
+
+## creamos un repositorio remoto 
