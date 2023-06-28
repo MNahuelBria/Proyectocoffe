@@ -3,8 +3,8 @@
 ## Configuración inicial.
 
 ```sh
-git config --global user.name "Maximiliano Principe"
-git config --global user.email "mlapeducacionit@gmail.com"
+git config --global user.name "Nahuel Bria"
+git config --global user.email "nagu.b.2012@gmail.com"
 ``` 
 
 ## Verificando la configuración inicial, si quedo todo piola!
@@ -52,7 +52,7 @@ git add README.md css/estilos.css
 git add . # Con el punto (.) o el asterisco (*) Agrego todos los archivos que están (UnTRACKED, MODIFIED) al área intermedia o stanging area (SA)
 ```
 
-## Para hacer commit [acar foto] (SA => LR)
+## Para hacer commit [sacar foto] (SA => LR)
 
 ```sh
 git commit -m "<Mensaje explicando que guarde en esa foto>"
